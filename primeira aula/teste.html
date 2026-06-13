@@ -1,0 +1,41 @@
+<!-- <div
+  class="galeria"
+  style="display: flex; flex-direction: column; align-items: center; gap: 15px"
+>
+  <!-- Os desenhos ficam no HTML, mas apenas o primeiro começa visível (display: block) -->
+  <pre class="art" style="display: block; font-family: monospace">
+  /\_/\  
+ ( o.o ) 
+  > ^ <  
+  </pre>
+
+  <pre class="art" style="display: none; font-family: monospace">
+  ______
+ /_  __/
+  / /
+ /_/     
+  </pre>
+
+  <pre class="art" style="display: none; font-family: monospace">
+ (o)(o)
+  \../
+  =\/=
+  </pre>
+
+  <!-- Botões com lógica direta de 1 linha -->
+  <div>
+    <button onclick="mudar(-1)">Anterior</button>
+    <button onclick="mudar(1)">Próximo</button>
+  </div>
+</div>
+
+<script>
+  let i = 0;
+  const arts = document.querySelectorAll(".art");
+
+  function mudar(dir) {
+    arts[i].style.display = "none"; // Esconde o atual
+    i = (i + dir + arts.length) % arts.length; // Calcula o próximo índice (mágica matemática)
+    arts[i].style.display = "block"; // Mostra o novo
+  }
+</script> -->
