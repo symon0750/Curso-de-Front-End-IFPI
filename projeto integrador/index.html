@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sobre mim</h1>
+        <nav>
+            <ol>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+
+        <section id="sobre">
+            <h2>Quem sou eu</h2>
+            <img src="assets/image.png" alt="eu em toda a minha glória">
+            <p>
+                Meu nome é Symon Mendes, sou estudante do <a href="https://www.ifpi.edu.br/teresinacentral">IFPI</a>,
+                aluno do 1° período de Análise e Desenvolvimento de Sistemas. Atualmente, busco uma vaga de estágio na
+                área de desenvolvimento de software. Futuramente pretendo me tornar um Desenvolvedor python, trabalhando
+                no segmento de Back-end ou Inteligência Artificial.
+            </p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ol>
+                <li>HTML</li>
+                <li>Python</li>
+            </ol>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <article>
+                Pretendo criar uma landing page para a minha irmã.
+            </article>
+            <article>
+                Também planejo criar um sistema de caixa com python.
+            </article>
+        </section>
+
+        <section id="contato">
+            <h2>Contate-me</h2>
+            <form action="enviar.html" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Seu nome..."
+                    style="margin-bottom: 15px" /><br />
+
+                <label for="numero">Contato: </label>
+                <input type="number" id="numero" name="contato" required placeholder="Número de telefone"
+                    style="margin-bottom: 15px" /><br />
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" style="margin-bottom: 15px" required /><br />
+
+                <label for="msg">Mensagem:</label><br />
+                <input type="textarea" id="msg" name="msg" required style="margin-bottom: 15px" /><br />
+
+                <select id="opcoes" name="opcoes" style="margin-bottom: 15px">
+                    <option value="1">Dúdivas</option>
+                    <option value="2">Sugestões</option>
+                    <option value="3">Suporte</option>
+                </select><br />
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
+
