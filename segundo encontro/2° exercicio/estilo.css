@@ -1,0 +1,15 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+* {
+    background-color: #0f172a;
+    color: #ffdc7d;
+}
+
+.menu {
+    display: flex;
+    gap: 1.5rem;
+}

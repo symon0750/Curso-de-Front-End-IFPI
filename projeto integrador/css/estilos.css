@@ -1,0 +1,28 @@
+* {
+    background-color: #0f172a;
+    color: #ffdc7d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 8px;
+
+}
+@media (min-width: 769px){
+    #projetos {
+        display: grid;
+    }
+
+    #habilidades {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+.menu {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.
+
+/* para celular */
