@@ -1,10 +1,17 @@
+    /* background-color: #0f172a;
+    color: #ffdc7d; */
+
+:root {
+    --bg: #f1f5f9;
+    --text: #0f172a;
+    --primary-color: #2563eb;
+}
+
 * {
-    background-color: #0f172a;
-    color: #ffdc7d;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 8px;
-
 }
+
 @media (min-width: 769px){
     #projetos {
         display: grid;
@@ -23,6 +30,24 @@
     gap: 1.5rem;
 }
 
-.
 
-/* para celular */
+#btn-tema {
+    padding: 5px 12px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+body.dark-theme {
+    --light-bg: #f1f5f9;   
+    --dark-color: #0f172a;  
+    --white: #f1f5f9;      
+    --primary-color: #0f172a; 
+}
+
+body.dark-theme footer {
+    background-color: #020617;
+    color: #f1f5f9;           
+}
